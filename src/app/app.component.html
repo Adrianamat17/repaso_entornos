@@ -1,12 +1,43 @@
-<!-- app.component.html -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>My Angular App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Inicio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Bienvenida a mi aplicación Angular</h1>
-  <p>Este es un ejemplo de contenido inicial.</p>
+    <header>
+        <h1>Bienvenido a Mi Página</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#acerca">Acerca de</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>Bienvenido a la página de inicio. Aquí encontrarás información relevante.</p>
+        </section>
+        <section id="acerca">
+            <h2>Acerca de</h2>
+            <p>Aprende más sobre nosotros.</p>
+        </section>
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <p>Estos son los servicios que ofrecemos.</p>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Ponte en contacto con nosotros.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mi Página. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
